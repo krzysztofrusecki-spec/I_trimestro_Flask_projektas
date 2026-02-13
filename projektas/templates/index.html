@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Welcome to the Clash Royale website</h1>
+<p>Welcome!</p>
+
+
+<img src="{{ url_for('static', filename='img/app.jpg') }}" width="300">
+
+<br><br>
+
+<button class="ghost-btn" onclick="showGif()">
+  <span>Click me</span>
+</button>
+
+<img
+    id="kingGif"
+    src="{{ url_for('static', filename='img/king.gif') }}"
+    style="display:none;
+    width:300px;
+    margin-top:20px;"
+>
+{% endblock %}

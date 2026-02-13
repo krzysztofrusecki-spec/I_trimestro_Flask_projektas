@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0b1023;
+  color: #e5e7eb;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+  background: #111827;
+}
+
+nav {
+  background: #020617;
+  padding: 12px;
+}
+
+nav a {
+  color: #00ff99;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 12px;
+}
+
+nav a:hover {
+  color: #00ccff;
+}
+
+main {
+  padding: 35px 20px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+p {
+  max-width: 700px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+.main-img, .gif-img {
+  width: 320px;
+  border-radius: 16px;
+  margin: 20px auto;
+  display: block;
+  box-shadow: 0 0 20px rgba(0, 255, 153, 0.25);
+}
+
+ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+ul li {
+  background: #111827;
+  padding: 12px;
+  margin: 10px auto;
+  max-width: 420px;
+  border-radius: 12px;
+}
+
+button {
+  margin-top: 18px;
+  padding: 12px 26px;
+  border: none;
+  border-radius: 999px;
+  background: #00ff99;
+  color: #020617;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00ccff;
+}
+
+.ghost-btn {
+  width: 160px;
+  height: 55px;
+  background: transparent;
+  border: 2px solid transparent;
+  opacity: 0;
+}
+
+.ghost-btn span {
+  opacity: 0;
+  color: #00ff99;
+  font-weight: bold;
+}
+
+.ghost-btn:hover {
+  opacity: 1;
+  border-color: #00ff99;
+  box-shadow: 0 0 20px #00ff99;
+}
+
+.ghost-btn:hover span {
+  opacity: 1;
+}
+
+.secret-gif {
+  width: 500px;
+  max-width: 95%;
+  border-radius: 18px;
+  margin-top: 20px;
+}
+
+.secret-text {
+  max-width: 700px;
+  margin: 15px auto;
+  padding: 12px;
+  background: #111827;
+  border-radius: 12px;
+}
+
+footer {
+  padding: 15px;
+  background: #020617;
+  opacity: 0.85;
+}

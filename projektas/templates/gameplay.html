@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1> Gameplay </h1>
+<p> Clash Royale gameplay </p>
+
+<p>
+Players use decks of 8 cards to destroy enemy towers.
+Matches last 3 minutes (or longer in overtime).
+The classic match - 1v1 battle you need to destroy enemy towers
+and earn trophies to unlock arenas, cards, and ranked leagues.
+Matches take place in an arena with King and Princess Towers.
+You spend elixir to deploy cards.
+The game also features modes like 2v2, challenges, Clan Wars, and rotating limited-time events.
+</p>
+
+<h3>Main gameplay points:</h3>
+<ul>
+    <li>Elixir management</li>
+    <li>Card placement</li>
+    <li>Great timing, prediction and strategy</li>
+</ul>
+
+<img src="{{ url_for('static', filename='img/gameplay.png') }}" width="400">
+
+{% endblock %}

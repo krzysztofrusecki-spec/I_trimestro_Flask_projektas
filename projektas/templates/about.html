@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1> About Clash Royale </h1>
+<p> Key information </p>
+
+<p>
+Clash Royale is a real-time strategy free to play mobile game.
+It's a multiplayer game where you collect and upgrade Clash characters,
+battle opponents, destroy their towers, win Trophies, Crowns, and glory in the Arena.
+</p>
+
+<ul>
+    <li>Developer: Supercell</li>
+    <li>Genre: Strategy, PvP</li>
+</ul>
+
+<img src="{{ url_for('static', filename='img/supercell.jpg') }}" width="200">
+
+{% endblock %}
